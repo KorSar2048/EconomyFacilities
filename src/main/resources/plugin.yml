@@ -1,0 +1,10 @@
+name: Eco-3
+version: '${project.version}'
+main: server.economy_fac.Economy_fac
+api-version: 1.16
+prefix:  EcoFac
+authors:  [KorSar2048]
+commands:
+ eco: {}
+ build: {}
+ recset: {}

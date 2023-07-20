@@ -1,0 +1,62 @@
+builds:
+  runduk:
+    holoi: "CHEST"
+    holot: "Рундук"
+    radius: 1
+    len: 2
+    materials:
+      - "BLACK_WOOL"
+      - "OBSIDIAN"
+    count:
+      - 1
+      - 2
+    recipes:
+      1:
+        ent:
+          - "OBSIDIAN"
+        nent:
+          - 1
+        prd:
+          - "BLACK_WOOL"
+        nprd:
+          - 1
+        rmod: 0
+
+  mine:
+    holoi: "STONE_PICKAXE"
+    holot: "ШАХТА"
+    radius: 2
+    len: 2
+    materials:
+      - "STONE"
+      - "OBSIDIAN"
+    count:
+      - 1
+      - 1
+    recipes:
+      1:
+        ent:
+          - "WOODEN_PICKAXE"
+        nent:
+          - 1
+        prd:
+          - "COBBLESTONE"
+          - "COAL"
+        nprd:
+          - 30
+          - 15
+        rmod: 1
+      2:
+        ent:
+          - "STONE_PICKAXE"
+        nent:
+          - 1
+        prd:
+          - "COBBLESTONE"
+          - "COAL"
+          - "IRON_ORE"
+        nprd:
+          - 30
+          - 15
+          - 3
+        rmod: 2
